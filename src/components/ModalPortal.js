@@ -281,7 +281,7 @@ export default class ModalPortal extends Component {
 
           <div className="modal-content">
             <p>Du texte</p>
-            <button onClick={this.onRequestClose}>Fermer</button>
+            <button onClick={this.props.onRequestClose}>Fermer</button>
           </div>
 
 
