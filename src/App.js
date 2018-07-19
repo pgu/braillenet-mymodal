@@ -22,9 +22,9 @@ import './App.css';
 const App = () => {
   return (
     <main className="content">
-      <p>Lorem ipsum dolor sit amet...</p>
-      <p>Lorem ipsum dolor sit amet...</p>
-      <p>Lorem ipsum dolor sit amet...</p>
+      <p lang="la">Lorem ipsum dolor sit amet...</p>
+      <p lang="la">Lorem ipsum dolor sit amet...</p>
+      <p lang="la">Lorem ipsum dolor sit amet...</p>
     </main>
   );
 }
