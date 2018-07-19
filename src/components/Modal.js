@@ -41,7 +41,7 @@ class Modal extends Component {
         isOpen={this.state.modalIsOpen}
         onAfterOpen={this.afterOpenModal}
         onRequestClose={this.closeModal}
-        contentLabal="Example Modal"
+        contentLabel="Modal d'exemple"
         ></ModalContent>
       </React.Fragment>
     );

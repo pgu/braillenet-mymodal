@@ -5,7 +5,7 @@ class ModalContent extends Component {
     return (
       <div class="modal-content">
         <p>Du texte</p>
-        <button type="button">Close</button>
+        <button onClick={this.closeModal}>Fermer</button>
       </div>
     );
   }
