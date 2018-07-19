@@ -12,10 +12,10 @@ class Modal extends React.Component {
 
   render () {
     return (
-      <div>
+      <React.Fragment>
         <ModalTrigger triggerText="Open"/>
         <ModalContent/>
-      </div>
+      </React.Fragment>
     );
   }
 
