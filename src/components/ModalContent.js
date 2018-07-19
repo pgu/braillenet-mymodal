@@ -120,6 +120,11 @@ class ModalContent extends Component {
   };
 
   render () {
+
+    if (!this.node) {
+      this.node = document.createElement("div");
+    }
+
     return createPortal(
       <ModalPortal
         ref={this.portalRef}
