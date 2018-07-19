@@ -36,7 +36,7 @@ class Modal extends Component {
   render () {
     return (
       <React.Fragment>
-        <ModalTrigger triggerText="Open" openModal="this.openModal"/>
+        <ModalTrigger triggerText="Open" openModal={this.openModal}/>
         <ModalContent
         isOpen={this.state.modalIsOpen}
         onAfterOpen={this.afterOpenModal}
