@@ -277,14 +277,7 @@ export default class ModalPortal extends Component {
           {...this.attributesFromObject("aria", this.props.aria || {})}
           {...this.attributesFromObject("data", this.props.data || {})}
         >
-          {/*{this.props.children}*/}
-
-          <div className="modal-content">
-            <p>Du texte</p>
-            <button onClick={this.props.onRequestClose}>Fermer</button>
-          </div>
-
-
+          {this.props.children}
         </div>
       </div>
     );
