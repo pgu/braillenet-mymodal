@@ -1,0 +1,16 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.content {
+  width: 95%;
+  max-width: 700px;
+  margin: 2em auto;
+}
