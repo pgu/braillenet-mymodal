@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ModalTrigger extends React.Component {
   render() {
     return (
-      <button>Ouvre-toi!</button>
+      <button>{this.props.triggerText}</button>
     );
   }
 }
