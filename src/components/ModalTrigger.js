@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ModalTrigger extends React.Component {
+class ModalTrigger extends Component {
   render() {
     return (
       <button>{this.props.triggerText}</button>
